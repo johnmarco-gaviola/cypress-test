@@ -4,7 +4,7 @@
   "description": "Cypress test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx cypress run --headless --record --key aaa5320f-e6fa-4974-9db9-9e4e62a814e1"
   },
   "author": "",
   "license": "ISC",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/johnmarco-gaviola/cypress-test/issues"
   },
-  "homepage": "https://github.com/johnmarco-gaviola/cypress-test#readme"
+  "homepage": "https://github.com/johnmarco-gaviola/cypress-test#readme",
+  "devDependencies": {
+    "mocha": "^10.8.2"
+  }
 }
