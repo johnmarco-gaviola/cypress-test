@@ -1,0 +1,22 @@
+{
+  "name": "myprojects",
+  "version": "1.0.0",
+  "description": "Cypress test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.16.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnmarco-gaviola/cypress-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/johnmarco-gaviola/cypress-test/issues"
+  },
+  "homepage": "https://github.com/johnmarco-gaviola/cypress-test#readme"
+}
