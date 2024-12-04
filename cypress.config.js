@@ -5,7 +5,7 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
-    specPattern: "cypress/ui/*.cy.js",
+    specPattern: "cypress/projects/**/ui/*.cy.js",
     video: true
   },
   projectId: "72p43o",
