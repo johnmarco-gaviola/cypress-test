@@ -1,5 +1,12 @@
 {
-    "url": "https://www.saucedemo.com/",
-    "username": "standard_user",
-    "password": "secret_sauce"
+    "login":{
+        "baseUrl": "https://www.saucedemo.com/",
+        "username": "standard_user",
+        "password": "secret_sauce"
+    },
+    "data": {
+        "firstName": "TesterFirst",
+        "lastName": "TesterLast",
+        "zip": "1700"
+    }    
 }

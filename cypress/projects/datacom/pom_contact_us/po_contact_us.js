@@ -49,7 +49,7 @@ export class ContactUs {
     verifyOfficeDetails(region) {
         this.navigateRegion(region);
     
-        cy.fixture('../fixtures/office.json').then((data) => {
+        cy.readFile('cypress/projects/datacom/fixtures/office.json').then((data) => {
             const regionData = data[region.toLowerCase()];
     
             if (regionData) {

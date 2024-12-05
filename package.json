@@ -4,7 +4,9 @@
   "description": "Cypress test",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run --headless --record --key aaa5320f-e6fa-4974-9db9-9e4e62a814e1"
+    "test:datacom": "npx cypress run --headless --record --key aaa5320f-e6fa-4974-9db9-9e4e62a814e1 --config-file ./cypress/projects/datacom/cypress.config.js",
+    "test:swaglabs": "npx cypress run --headless --record --key 0b366939-38e6-4b96-a808-28717f71f89a --config-file ./cypress/projects/SwagLabs/cypress.config.js",
+    "test:all": "npm run test:swaglabs && npm run test:datacom"
   },
   "author": "",
   "license": "ISC",
